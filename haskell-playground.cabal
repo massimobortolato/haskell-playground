@@ -22,7 +22,10 @@ common warnings
 executable haskell-playground
   import:           warnings
   main-is:          Main.hs
-  other-modules:    STM_Examples
+  other-modules:
+    ProducerConsumer
+    ProducerConsumerChannel
+    STM_Examples
 
   -- other-extensions:
   build-depends:
