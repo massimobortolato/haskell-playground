@@ -1,10 +1,10 @@
 module Main where
 
-import ProducerConsumerChannel (mainProducerConsumerChannel)
+import ProducerConsumerChannelLoad (mainProducerConsumerChannelLoad)
 
 -------------------------------------------------------------------------------
 main :: IO ()
 main = do
-  putStrLn "Hello, Haskell Main!"
-  mainProducerConsumerChannel
-  putStrLn "Goodbye, Haskell Main!"
+  putStrLn "**************"
+  mainProducerConsumerChannelLoad
+  putStrLn "##############"
